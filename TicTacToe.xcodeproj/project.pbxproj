@@ -17,6 +17,7 @@
 		91ABACD52727932300C3A920 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABACD12727932300C3A920 /* RootViewController.swift */; };
 		91ABACD62727932300C3A920 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABACD22727932300C3A920 /* RootBuilder.swift */; };
 		91ABACD72727932300C3A920 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91ABACD32727932300C3A920 /* RootInteractor.swift */; };
+		91C7673C272927C900B97AE8 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 91C7673B272927C900B97AE8 /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91ABACCC2727915C00C3A920 /* RIBs in Frameworks */,
+				91C7673C272927C900B97AE8 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +122,7 @@
 			name = TicTacToe;
 			packageProductDependencies = (
 				91ABACCB2727915C00C3A920 /* RIBs */,
+				91C7673B272927C900B97AE8 /* SnapKit */,
 			);
 			productName = TicTacToe;
 			productReference = 91ABACB22727901100C3A920 /* TicTacToe.app */;
@@ -150,6 +153,7 @@
 			mainGroup = 91ABACA92727901100C3A920;
 			packageReferences = (
 				91ABACCA2727915C00C3A920 /* XCRemoteSwiftPackageReference "RIBs" */,
+				91C7673A272927C900B97AE8 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = 91ABACB32727901100C3A920 /* Products */;
 			projectDirPath = "";
@@ -389,6 +393,14 @@
 				minimumVersion = 0.12.0;
 			};
 		};
+		91C7673A272927C900B97AE8 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -396,6 +408,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 91ABACCA2727915C00C3A920 /* XCRemoteSwiftPackageReference "RIBs" */;
 			productName = RIBs;
+		};
+		91C7673B272927C900B97AE8 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 91C7673A272927C900B97AE8 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
